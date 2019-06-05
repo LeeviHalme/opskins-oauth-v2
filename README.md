@@ -82,6 +82,26 @@ opskins.authenticate(req).then(user => {
 });
 ```
 
+### getOAuthClient
+
+Gets the oAuth Client information.
+
+#### Parameters
+
+None.
+
+#### Returns
+
+- Promise (ClientObject)
+
+#### Example
+
+```javascript
+opskins.getOAuthClient().then(client => {
+  //...do something with the client
+});
+```
+
 ## Objects
 
 ### UserObject
@@ -103,6 +123,19 @@ Object which holds all the authenticated user's data. The `refresh_token` key is
   cryptoBalances: 0,
   access_token: "...",
   refresh_token: "...",
+}
+```
+
+### ClientObject
+
+Object which holds the oAuth client data.
+
+#### Example
+
+```javascript
+{
+  clientId: 1234567,
+  clientSecret: "...",
 }
 ```
 

@@ -181,6 +181,13 @@ class OpskinsAuth {
       }
     });
   }
+
+  // Get oAuth Client Information
+  get getOAuthClient() {
+    return new Promise(resolve => {
+      resolve({ clientId: this.clientId, clientSecret: this.clientSecret });
+    });
+  }
 }
 
 // Export class
