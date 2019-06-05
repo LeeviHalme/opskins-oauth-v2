@@ -1,6 +1,6 @@
 {
   "name": "opskins-oauth-v2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A wrapper package around OPSkin's oAuth API. Supports promises.",
   "main": "index.js",
   "scripts": {
