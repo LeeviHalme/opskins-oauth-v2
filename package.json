@@ -1,0 +1,25 @@
+{
+  "name": "opskins-oauth-v2",
+  "version": "1.0.0",
+  "description": "A wrapper package around OPSkin's oAuth API. Supports promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeviHalme/opskins-oauth-v2.git"
+  },
+  "keywords": [
+    "opskins",
+    "oauth",
+    "vgo",
+    "virl"
+  ],
+  "author": "Leevi Halme <me@leevihal.me> (https://leevihal.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeviHalme/opskins-oauth-v2/issues"
+  },
+  "homepage": "https://github.com/LeeviHalme/opskins-oauth-v2#readme"
+}
