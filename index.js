@@ -73,7 +73,8 @@ class OpskinsAuth {
         },
         data: {
           name: this.name,
-          redirect_uri: this.returnUrl
+          redirect_uri: this.returnUrl,
+          can_keep_secret: 1
         }
       };
 
