@@ -1,5 +1,8 @@
 # opskins-oauth-v2
 
+[![npm version](https://badge.fury.io/js/opskins-oauth-v2.svg)](https://badge.fury.io/js/opskins-oauth-v2)
+[![dependencies](https://david-dm.org/leevihalme/opskins-oauth-v2.svg)](https://david-dm.org/leevihalme/opskins-oauth-v2.svg)
+
 OPSkins-oAuth-v2 is a simple wrapper package around OPSkins oAuth API. Inspired by almatrass's package called `opskins-oauth`. That package is currently deprecated but the new one supports only PassportJS. This is a rebuilt authentication wrapper package, which supports promises.
 
 ## Usage
